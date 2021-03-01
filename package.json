@@ -1,0 +1,30 @@
+{
+  "name": "vaxbot-tweeter",
+  "version": "1.0.0",
+  "description": "A twitter bot that is subscribed to messages from vaxbot-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaxbot/vaxbot-tweeter.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "COVID-19",
+    "notifications",
+    "vaccination"
+  ],
+  "author": "Austin Carnahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaxbot/vaxbot-tweeter/issues"
+  },
+  "homepage": "https://github.com/vaxbot/vaxbot-tweeter#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2"
+  }
+}
