@@ -13,3 +13,7 @@ subscriber.on("message", function(channel, message) {
 });
 
 subscriber.subscribe("STL");
+
+
+
+//export { function1, function2, …, functionN } // for testing
